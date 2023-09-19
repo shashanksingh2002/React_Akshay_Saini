@@ -1,0 +1,12 @@
+1.] What is emmet?
+Ans] Emmet is a web dev tool in vs code which provides short hand notations for some regularly used codes or a boiler plate code.
+
+2.] Diff between libraries and frameworks?
+Ans] Libraries basically provide predefined functions for us to use and control reamains with us and how do we use it. While for a framework it provides the structure and control of it so we can use it however we want but we need to follow the frameworks structure.
+
+3.] What is the diff between normal script tags, async script tags and defer script tags?
+Ans] Normal Script tags are synchronous in nature Lets say when the html file starts rendering ans we encounter a script tag then the HMTL parsing stops a netwrok request is sent out to fetch the js file and then the js file starts excecution mind that during this whole time the html rendering has stopped and as soon as js is excecuted remaining html is rendered.
+
+async script tags fetch the js file while rendering html but stops the the rendering as soon as js files are received and starts excecuting them and as soon as js is excecuted html files starts rendering again. The only problem is that async doesnt guarantee the order because lets see you have multiple js file in different script tags and they are dependent on each other than this may give you ambiguous result or may even present with an error.
+
+defer script tags fetch the js file while rendering html same as async script tags but only start excecuting js files after the html has finished rendering.
